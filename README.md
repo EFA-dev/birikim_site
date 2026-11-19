@@ -42,3 +42,4 @@ python3 -m http.server 8000
 - [`docs/BIRIKIM_SITE.md`](docs/BIRIKIM_SITE.md): the parts, publishing, rules, decisions and known gaps.
 - [`docs/APP_LINKS.md`](docs/APP_LINKS.md): how the app's paths are claimed and kept in step.
 - [`docs/PAGES.md`](docs/PAGES.md): the pages and the legal texts, and where the app reads its own.
+- [`.agents/skills/birikim-site/SKILL.md`](.agents/skills/birikim-site/SKILL.md): the agent's guide (rules, parts, pitfalls).
