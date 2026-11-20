@@ -15,7 +15,7 @@ the app, so a link to a record opens it in the app.
 | iOS association | `applinks` and `webcredentials` for `79S2VKLWU7.app.birikim.mobile`; 13 app paths, the site's images excluded | `.well-known/apple-app-site-association` | [`APP_LINKS.md`](APP_LINKS.md) |
 | Android association | `app.birikim.mobile` handles all URLs, with three SHA-256 fingerprints | `.well-known/assetlinks.json` | [`APP_LINKS.md`](APP_LINKS.md) |
 | Styles and scripts | SCSS and JavaScript sources, the built CSS and JavaScript, images | `src/`, `dist/` | |
-| Release note | `changelog/1.2.0_ios.md` | `changelog/` | |
+| Release note | `changelog/2.0.0_ios.md` | `changelog/` | |
 
 ## Publishing
 
@@ -35,8 +35,4 @@ otherwise skip. There is no build step in the repository: `dist/` is committed a
 
 ## Known gaps
 
-- Files no page uses: the eight screenshots in `assets/*.png`, `dist/webp/v2.0/`, `mail_2.png`,
-  `dist/images/play_store.png` and the six feature icons in `src/images/` and `dist/images/`.
-- `index.html` keeps a commented-out pricing block with placeholder text, and its footer says © 2022.
-- `changelog/1.2.0_ios.md` holds the notes of version 2.0.0.
 - `src/` has no build setup (no package file); `dist/` cannot be rebuilt from it here.
