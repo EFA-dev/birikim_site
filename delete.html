@@ -1,28 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 
 <head>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width'>
-  <title>Hesap Silme</title>
+  <title>Hesap Silme · Account Deletion</title>
   <style>
     body {
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       padding: 1em;
+      max-width: 40em;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+
+    .cover {
+      text-align: center;
+    }
+
+    section+section {
+      margin-top: 2em;
+      border-top: 1px solid #ddd;
     }
   </style>
 </head>
 
 <body>
-  <div style="text-align: center;">
-    <div>
-      <img src="dist/webp/cover.webp" alt="Logo" height="200">
-    </div>
-    <strong>Hesap Silme</strong>
-    <p>Birikim hesabınızı silmek istiyorsanız Ayarlar bölümünde bulunan Hesap Ayarları bölümüne giderek işlemi
-      gerçekleştirebilirsiniz.<br>Hesabınız pasif hale getirecek ve 30 gün içinde tekrar giriş yapmadığınız halde
-      tamamen
-      silinecektir.</p>
+  <div class="cover">
+    <img src="dist/webp/cover.webp" alt="Birikim" height="200">
   </div>
+
+  <section lang="tr">
+    <h1>Hesap Silme</h1>
+    <ol>
+      <li>Uygulamada <strong>Ayarlar › Hesabı Sil</strong>'e git.</li>
+      <li>Kimliğini doğrulamak için yeniden giriş yap (e-posta kodu, Google ya da Apple).</li>
+      <li>Silmeyi onayla. Hesabın <strong>7 gün sonra</strong> silinir; bu sürede Birikim sana bildirim ve
+        hatırlatma göndermez. Silme gününü bildiren bir e-posta gelir.</li>
+    </ol>
+    <p><strong>Geri almak:</strong> 7 gün dolmadan uygulamayı açıp yeniden giriş yaparak ya da onay e-postasındaki
+      "Hesabımı geri al" düğmesiyle silmeyi geri alabilirsin.</p>
+    <p><strong>Silinenler:</strong> Birikim'deki bütün verin (kartların, kayıtların, ajanların, bildirimlerin) ve
+      bildirim kaydın. Birikim üyeliğin kapanır; başka bir EFA uygulaması kullanmıyorsan EFA ID kimliğin de silinir.
+      Silindiğinde son bir e-posta gelir.</p>
+    <p><strong>Abonelik:</strong> Hesabı silmek aboneliği bitirmez; aboneliğini App Store ya da Google Play
+      ayarlarından ayrıca iptal et.</p>
+  </section>
+
+  <section lang="en">
+    <h1>Account Deletion</h1>
+    <ol>
+      <li>In the app, go to <strong>Settings › Delete Account</strong>.</li>
+      <li>Sign in again to confirm it is you (an email code, Google or Apple).</li>
+      <li>Confirm the deletion. Your account is deleted <strong>after 7 days</strong>; until then Birikim sends you no
+        notifications or reminders. An email tells you the day.</li>
+    </ol>
+    <p><strong>Taking it back:</strong> before the 7 days end, open the app and sign in again, or use the "Take my
+      account back" button in the confirmation email.</p>
+    <p><strong>What is deleted:</strong> all your data in Birikim (your cards, records, agents and notifications) and
+      your notification registration. Your Birikim membership closes; if you use no other EFA app, your EFA ID identity
+      is deleted too. A last email tells you when it is done.</p>
+    <p><strong>Subscription:</strong> deleting the account does not end a subscription; cancel it in your App Store or
+      Google Play settings.</p>
+  </section>
+</body>
 
 </html>

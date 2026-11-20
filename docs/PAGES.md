@@ -9,7 +9,7 @@ The site's four pages, the legal texts' sources in `docs/`, and where the app re
 | `index.html` | Turkish | 2024-05-04 | "Birikim - Finans Asistanınız": the App Store and Google Play badges, the eight screenshots of version 2.8 (`dist/webp/v2.8/`), the modules and reports, `info@birikim.app`, Twitter and KVKK links |
 | `privacy.html` | English | 2021-11-29 | A privacy policy for a freemium app, effective 2021-11-29: log data, cookies, Google Play Services and Sentry as third parties |
 | `kvkk.html` | Turkish | 2024-01-03 | The KVKK notice, word for word `docs/kvkk.md`; contact `info@birikim.app` |
-| `delete.html` | Turkish | 2023-12-06 | Account deletion: Settings › Account Settings; the account turns passive and is deleted if no sign-in follows in 30 days |
+| `delete.html` | Turkish and English | 2026-11-20 | Account deletion as the app does it: Settings › Delete Account, a fresh sign-in, a 7-day wait, taking it back in the app or with the confirmation email's button, what is deleted, and that a subscription is cancelled in the store |
 
 `index.html` loads its animation scripts from unpkg (`animejs@3.0.1`, `scrollreveal@4.0.0`) and its font from Google
 Fonts.
@@ -46,8 +46,6 @@ email that confirms it carries a link that takes it back (`birikim_mobile/docs/S
 
 ## Known gaps
 
-- `delete.html` describes an old deletion: "Account Settings", a passive account and 30 days without a sign-in. The app
-  waits 7 days after Settings › Delete account; a sign-in alone does not take it back, the app and the email offer to.
 - `privacy.html` is the 2021 English text and not `docs/privacy_policy_en.md`: it names no support device log, no EFA ID,
   no push or subscription provider. The site has no Turkish privacy policy page.
 - The app's legal texts live in another Supabase project's storage; nothing here publishes `docs/*.md` there, so a change
